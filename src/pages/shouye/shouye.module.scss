@@ -1,0 +1,129 @@
+.page {
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  .header {
+    padding: 14.5px 14px 6px 35px;
+    height: 85px;
+    .time {
+      color: #000000;
+      font-size: 15px;
+      font-family: 'Helvetica';
+      line-height: 18px;
+      letter-spacing: -0.3px;
+    }
+    .group_1 {
+      margin: 3px 0 3.5px;
+      .signal {
+        width: 17px;
+        height: 11px;
+      }
+      .wifi {
+        margin-left: 4.5px;
+        width: 16px;
+        height: 11px;
+      }
+      .battery {
+        margin-left: 4.5px;
+        width: 24.5px;
+        height: 11.5px;
+      }
+    }
+    .header_title {
+      margin-top: 21.5px;
+      align-self: center;
+      color: #000000;
+      font-size: 18px;
+      font-family: 'PingFangSC-Semibold';
+      font-weight: 600;
+      line-height: 25px;
+    }
+  }
+  .content {
+    padding: 11px 19px 21.5px;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    .banner {
+      border-radius: 8px;
+      width: 335px;
+      height: 150px;
+    }
+    .equal-division {
+      margin-top: 27px;
+      .equal-division-item {
+        flex: 1 1 84px;
+        padding: 3px 0 5px;
+        .manu_icon {
+          border-radius: 50%;
+          width: 48px;
+          height: 48px;
+        }
+        .manu_text {
+          margin-top: 6px;
+          color: #000000;
+          font-size: 13px;
+          font-family: 'PingFangSC-Regular';
+          line-height: 18px;
+        }
+      }
+    }
+    .group_7 {
+      margin-top: 23px;
+      .title {
+        align-self: flex-start;
+        color: #000000;
+        font-size: 15px;
+        font-family: 'PingFangSC-Semibold';
+        font-weight: 600;
+        line-height: 21px;
+      }
+      .list-item {
+        padding: 12px 1px 15.5px;
+        &:not(:last-of-type) {
+          border-bottom: solid 1px #dddddd;
+        }
+        .list_image {
+          border-radius: 4px;
+          width: 100px;
+          height: 100px;
+        }
+        .group_9 {
+          margin-left: 16px;
+          flex: 1 1 auto;
+          .list_text {
+            color: #000000;
+            font-size: 15px;
+            font-family: 'PingFangSC-Regular';
+            line-height: 21px;
+          }
+          .address {
+            margin-top: 8px;
+            color: #888888;
+            font-size: 13px;
+            font-family: 'PingFangSC-Regular';
+            line-height: 18px;
+          }
+          .group_11 {
+            margin-top: 29px;
+            .price {
+              margin-right: 3px;
+              color: #000000;
+              font-size: 17px;
+              font-family: 'PingFangSC-Regular';
+              line-height: 24px;
+            }
+            .unit {
+              margin: 4px 0 2px;
+              color: #888888;
+              font-size: 13px;
+              font-family: 'PingFangSC-Regular';
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

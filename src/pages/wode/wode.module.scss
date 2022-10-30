@@ -1,0 +1,164 @@
+.page {
+  background-color: #f2f2f2;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  .header {
+    padding: 14.5px 14px 9px 25px;
+    background-color: #ffffff;
+    height: 88px;
+    .group {
+      padding-left: 10px;
+      .time {
+        color: #000000;
+        font-size: 15px;
+        font-family: 'Helvetica';
+        line-height: 18px;
+        letter-spacing: -0.3px;
+      }
+      .group_1 {
+        margin: 3px 0 3.5px;
+        .signal {
+          width: 17px;
+          height: 11px;
+        }
+        .wifi {
+          margin-left: 4.5px;
+          width: 16px;
+          height: 11px;
+        }
+        .battery {
+          margin-left: 4.5px;
+          width: 24.5px;
+          height: 11.5px;
+        }
+      }
+    }
+    .group_2 {
+      margin-top: 21.5px;
+      position: relative;
+      .back_icon {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 18px;
+      }
+      .header_title {
+        color: #000000;
+        font-size: 18px;
+        font-family: 'PingFangSC-Semibold';
+        font-weight: 600;
+        line-height: 25px;
+      }
+    }
+  }
+  .content {
+    padding: 16px 0 63px;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    .section_1 {
+      padding: 16px 20px;
+      background-color: #ffffff;
+      .head_image {
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+      }
+      .nickname {
+        margin-left: 16px;
+        align-self: center;
+        color: #000000;
+        font-size: 18px;
+        font-family: 'PingFangSC-Semibold';
+        font-weight: 600;
+        line-height: 25px;
+      }
+    }
+    .section_2 {
+      margin-top: 16px;
+      padding: 20px 19px 15px;
+      background-color: #ffffff;
+      .page_title {
+        align-self: flex-start;
+        color: #000000;
+        font-size: 15px;
+        font-family: 'PingFangSC-Semibold';
+        font-weight: 600;
+        line-height: 21px;
+      }
+      .equal-division {
+        margin-top: 8.5px;
+        .equal-division-item {
+          flex: 1 1 84px;
+          padding: 5.5px 0;
+          .order_icon {
+            width: 32px;
+            height: 32px;
+          }
+          .order_manu_text {
+            margin-top: 10px;
+            color: #000000;
+            font-size: 13px;
+            font-family: 'PingFangSC-Regular';
+            line-height: 18px;
+          }
+        }
+      }
+    }
+    .section_3 {
+      margin-top: 16px;
+      padding: 13px 20px;
+      background-color: #ffffff;
+      .image-wrapper {
+        margin: 5px 0 4px;
+        width: 24px;
+        .manu_icon {
+          width: 22px;
+          height: 15px;
+        }
+      }
+      .group_10 {
+        margin-top: 26px;
+        padding: 0 2px;
+      }
+    }
+    .section_4 {
+      margin-top: 16px;
+      padding: 13px 21px;
+      background-color: #ffffff;
+    }
+    .manu_icon2 {
+      width: 22px;
+      height: 22px;
+    }
+    .manu_text {
+      margin-left: 17px;
+      color: #000000;
+      font-size: 17px;
+      font-family: 'PingFangSC-Regular';
+      line-height: 24px;
+    }
+    .section_5 {
+      margin-top: 16px;
+      padding: 13px 21px;
+      background-color: #ffffff;
+      .group_11 {
+        padding: 0 1.5px;
+      }
+      .group_12 {
+        margin-top: 26px;
+      }
+    }
+    .group_9 {
+      margin-top: 26px;
+      padding: 0 1px;
+      .image_10 {
+        width: 22px;
+        height: 21px;
+      }
+    }
+  }
+}
